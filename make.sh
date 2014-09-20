@@ -2,7 +2,7 @@
 
 # Enable userspace gpio for all users. Considerably safe on Raspberry Pi,
 # as there is probably only one user playing with it :-)
-# (c) 2014 Helmut Gruber, EBCOM.de
+# 2014 Helmut Gruber, EBCOM.de
 
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2
